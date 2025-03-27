@@ -93,3 +93,8 @@ body {
 h2 {
     color: var(--secondary-color);
 }
+
+/* The following CSS selector (rule) removes underlines from all hyperlinks. Do not do this.*/
+a  {  
+  text-decoration: none; 
+}
