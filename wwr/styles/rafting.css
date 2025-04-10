@@ -72,12 +72,14 @@ body {
 
 /* Image Inside Info Box */
 .info-box img {
-    width: 130px; /* Slightly larger */
+    width: 130px;
     height: auto;
     border: 5px solid rgba(255, 255, 255, 0.7);
-    padding: 8px; /* More space around */
+    padding: 8px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
+    float: right; /* Float image to the right */
+    margin-left: 20px; /* Add spacing between text and image */
 }
 
 .sociallinks img {
