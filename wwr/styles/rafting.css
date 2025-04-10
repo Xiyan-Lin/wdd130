@@ -178,7 +178,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     margin-right: 20px; /* Increased spacing */
-    color: rgba(0, 0, 0, 0.5); /* Yellow text for contrast */
+    color: #000000; /* Yellow text for contrast */
 }
 
 /* Image Inside Info Box */
@@ -222,7 +222,7 @@ footer {
 }
 
 h2 {
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 /* The following CSS selector (rule) removes underlines from all hyperlinks. Do not do this.*/
