@@ -7,6 +7,48 @@
     --overlay-color: rgba(0, 0, 0, 0.5);
     --text-color: #ffffff;
 }
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 110px 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 2rem 0 0;
+	width: 200px;
+	height: auto;
+}
+
+.navigation {
+    margin-left: 4rem;
+	display: flex;
+    justify-content: flex-end;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.navigation li {
+	flex: 1 1 1 auto;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
 
 /* Apply general styles */
 body {
@@ -14,6 +56,79 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fff;
 }
+
+.history-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.history-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* 控制中間間距 */
+}
+
+.history-content p {
+    flex: 1;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.history-content img {
+    width: 200px;  /* 依照你的範例縮放圖片大小 */
+    height: auto;
+    background-color: #EEC170; /* 如果圖片背景需要上色，可加這行 */
+    padding: 20px; /* 留白讓圖不會太擠 */
+    object-fit: cover;
+}
+
+.adv {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: thin #c0c0c0 solid;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+.item img {
+    width: 100px; /* or whatever size you want */
+    height: 100px;
+    object-fit: cover;
+    background-color: #eee; /* fallback background */
+}
+
+.item figcaption {
+    margin-top: 10px;
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
 
 /* Hero Section */
 .hero {
@@ -82,14 +197,32 @@ body {
     margin-left: 20px; /* Add spacing between text and image */
 }
 
-.sociallinks img {
-    width: 30px;
-    height: auto;
+footer {
+    background-color: #F2A65A; /* 淡紫色背景 */
+    border: 1px solid #666;    /* 深色邊框 */
+    padding: 10px 20px;
 }
 
-.adv img {
-    width: 100px;
-    height: auto;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.sociallinks {
+    display: flex;
+    gap: 10px;
+}
+
+.sociallinks a img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
 
 h2 {
