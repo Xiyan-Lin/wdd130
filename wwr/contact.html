@@ -28,7 +28,7 @@
     </header>
     <main>
         <section class="contact-info">
-            <h2>Contact Information</h2>
+            <h1>Contact Information</h1>
             <p>📍 123 River Adventure Rd, Rapidsville, CO 80452</p>
             <p>📞 (555) 123-4567</p>
             <p>📧 contact-us@whitewaterrafting.com</p>
@@ -70,14 +70,14 @@
                 <input type="email" id="email" name="email" required>
     
                 <p>Purpose of Message:</p>
-                <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                <label><input type="radio" id="purpose1" name="purpose" value="general"> General Inquiry</label>
+                <label><input type="radio" id="purpose2" name="purpose" value="reservation"> Reservation Question</label>
+                <label><input type="radio" id="purpose3" name="purpose" value="suggestion"> Website Suggestion</label>
     
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
     
-                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                <label><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label>
     
                 <button type="submit">Send Message</button>
             </form>
