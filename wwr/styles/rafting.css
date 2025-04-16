@@ -311,7 +311,7 @@ a  {
 
 .contact-form button {
     background-color: var(--primary-color);
-    color: black;
+    color: #000;
     font-size: 1.1rem;
     padding: 10px 20px;
     border: none;
