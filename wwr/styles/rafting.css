@@ -340,3 +340,230 @@ a  {
 .wireframe-link a:hover {
     color: #f50808;
 }
+
+/*Home page*/
+
+/* Hero Section (Home) */
+.hero1 {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.hero1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero1 h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Newsletter Sign-up */
+.newsletter-signup {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fefefe;
+}
+
+.newsletter-signup h2 {
+    color: var(--accent2-color);
+    margin-bottom: 1rem;
+}
+
+.newsletter-signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter-signup input[type="text"],
+.newsletter-signup input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter-signup button {
+    background-color: var(--primary-color);
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.newsletter-signup button:hover {
+    background-color: var(--accent2-color);
+}
+
+/* Call to Action */
+.cta {
+    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 2rem 1rem;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    color: #000;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: var(--accent2-color);
+}
+
+/* Grid Info Section */
+.grid-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-item img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.info-item h3 {
+    margin: 0.5rem 0;
+    color: var(--accent2-color);
+}
+
+.info-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Trips Page Styles */
+
+.trips-cta {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--accent1-color);
+}
+
+.trips-cta h2 {
+    font-size: 2rem;
+    color: var(--accent2-color);
+}
+
+.trips-cta p {
+    font-size: 1.2rem;
+    color: #000;
+    margin: 1rem 0;
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.trip-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fefefe;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-card div {
+    padding: 1rem;
+}
+
+.trip-card h3 {
+    margin-top: 0;
+    color: var(--accent2-color);
+}
+
+.trip-table {
+    padding: 2rem;
+    background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.trip-table h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--accent2-color);
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
